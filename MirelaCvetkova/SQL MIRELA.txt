@@ -1,0 +1,40 @@
+1.Show all rows for Customers
+select * from customers
+
+2.Show only Contact name information for Customers
+select ContactName from customers
+
+3.Show all unique combinations between Cities and Countries for the customers
+select distinct city, country from customers
+
+4.Insert 3 new Customers
+insert into customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+values ('Georgi', 'Gosho', 'Mladost', 'Sofia', '1111', 'Bulgaria'),
+('Adriana', 'Adi', 'Obelia', 'Sofia', '1878', 'Bulgaria'),
+('Nikolai', 'Niki', 'Nadejda', 'Sofia', '1111', 'Bulgaria')
+
+5.Move all orders made by Andrew Fuller to Nancy Davolio
+update orders
+set EmployeeID='1'
+where EmployeeID='2'
+
+6.Group all products by category and show category name
+
+
+7.Sort all employees by Last Name and delete the last one. Do not remember to move all his/her orders to another colleague
+
+
+
+8.Show all customers without orders
+
+
+
+9.Show all products including 'ch' in its name with price between 10 and 20
+SELECT * FROM [Products]
+where Price BETWEEN 10 AND 20 AND ProductName LIKE '%ch%'
+
+10.Group all products from 9 by category and sort by count in descending order
+SELECT * FROM [Products]
+GROUP BY CategoryID
+ORDER BY COUNT(CategoryID) DESC
+
