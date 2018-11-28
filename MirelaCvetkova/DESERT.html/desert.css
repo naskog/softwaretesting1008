@@ -1,0 +1,53 @@
+
+nav{
+    font-size: 15px;
+    color: #F781F3;
+    background-color: #FA5882;
+    text-align: left;
+}
+nav > button {
+    margin: 25px;
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+}
+nav > button:hover {
+    background-color: #F7819F;
+    border: 2px solid rgb(0, 0, 0);
+}
+h2{
+    background-color: #D0A9F5;
+color: #B40431;
+}
+img {
+    height: 500px;
+    width: 500px;
+    padding: 100px;
+    border-style: groove;
+    border-color: #FA5882;
+}
+p{
+    color: #DF0101;
+    text-align: left;
+}
+a{
+    font-size: 150%;
+    font-style: italic;
+}
+body{
+    background: #F6CEF5;
+}
+button{
+    color: black;
+}
+form {
+    display: inline-block;
+    color: rgb(12, 1, 1);
+}
+.сладко{
+    color: #DF0101;
+}
+.ли{
+    color: black;
+}
+
