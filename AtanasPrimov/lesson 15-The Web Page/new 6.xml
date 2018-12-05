@@ -1,0 +1,16 @@
+<catalog>
+<product description="Cardigan Sweater" product_image="cardigan.jpg">
+<catalog_itemgender="Men's">
+<item_number>QWZ5671</item_number>
+<price>39.95</price>
+<size description="Medium">
+<color_swatchimage="red_cardigan.jpg">Red</color_swatch>
+<color_swatchimage="burgundy_cardigan.jpg">Burgundy</color_swatch>
+</size>
+<size description="Large">
+<color_swatchimage="red_cardigan.jpg">Red</color_swatch>
+<color_swatchimage="burgundy_cardigan.jpg">Burgundy</color_swatch>
+</size>
+</catalog_item>
+</product>
+</catalog>
