@@ -1,5 +1,5 @@
 1.Show all rows for Customers
-select * from customers
+select * from customersn hny
 
 2.Show only Contact name information for Customers
 select ContactName from customers
